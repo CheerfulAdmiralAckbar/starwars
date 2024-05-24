@@ -347,7 +347,7 @@ body {
   color: white;
   margin: 25px 0 0 0;
   padding: 0;
-  gap: 45px;
+  gap: 20px;
 }
 
 .content-item {
@@ -366,7 +366,7 @@ body {
 }
 
 .content-item h3 {
-  padding: 0 15px;
+  padding: 0 15px 15px 15px;
   font-size: 1.125rem;
   line-height: 26px;
   margin-top: 25px;
