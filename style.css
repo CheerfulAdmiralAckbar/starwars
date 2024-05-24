@@ -1,0 +1,373 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  max-width: 1300px;
+  width: 95%;
+  margin: auto;
+}
+
+.nav-wrapper {
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 0 35px 0 35px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: 1px #48494a solid;
+}
+
+
+.navbar .third {
+  width: 33.33%;
+  height: 100px;
+  padding: 15px;
+}
+
+.navbar .logo {
+  display: flex;
+  cursor: pointer;
+}
+
+.navbar .logo img {
+  height: 80px;
+  margin: auto;
+}
+
+.link-nav-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 9px;
+  display: flex;
+}
+
+.account-float {
+  justify-content: flex-end;
+}
+
+.social-float {
+  justify-content: flex-start;
+}
+
+.social-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 22px;
+  justify-content: center;
+}
+
+.social-links li {
+  display: flex;
+}
+
+.social-links li i {
+  font-size: 20px;
+  color: white;
+}
+
+.social-kids {
+  display: flex;
+  justify-content: center;
+  padding-left: 15px;
+  border-left: 1px solid rgba(255, 255, 255, 0.363);
+  align-items: center;
+}
+
+.account-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  gap: 22px;
+  margin: 5px 0 0 0;
+  padding: 8px;
+}
+
+.account-link {
+  color: white;
+  font-weight: 500;
+}
+
+.account-link i {
+  margin-right: 5px;
+}
+
+.navbar-links {
+  display: block;
+  width: 100%;
+}
+
+.navbar-links ul {
+  display: flex;
+  justify-content: center;
+  gap: 49px;
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+.navbar-links ul li {
+  font-weight: bold;
+  font-size: 15px;
+  color: #B5B7B7;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.navbar-links ul li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.alert-banner {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.slider {
+  width: 100%;
+  height: 40vh;
+}
+
+.slide {
+  background: url('images/jar-jar-binks-desktop.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.slide-content {
+  height: 83%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide-navigation {
+  height: 17%;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(146, 146, 146);
+  font-size: 43px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+.arrow i {
+  margin-top: 75px;
+}
+
+.arrow i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.slider-description {
+  flex: 1;
+  padding: 0 15px;
+  color: white;
+  width: 75%;
+}
+
+.slider-description h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  line-height: 45px;
+  margin-top: 65px;
+}
+
+.slider-description h4 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.slider-content-wrapper {
+  width: 450px;
+}
+
+.slider-content-wrapper button {
+  padding: 15px 55px;
+  border-radius: 55px;
+  background: #fade4b;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.slider-content-wrapper button:hover {
+  background: #f2d24e;
+}
+
+.slide-navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.slide-navigation ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.slide-nav-item {
+  width: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-top: 2px solid #1786eb;
+}
+
+.slide-nav-item-color {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  background: #2f2a2aa8;
+  text-transform: uppercase;
+  text-shadow: 1px 0px 2px rgba(0, 0, 0, 1);
+}
+
+.slide-nav-item-1 {
+  background-image: url('images/sol-of-the-jedi-mobile.jpeg');
+  background-size: cover;
+}
+
+.slide-nav-item-2 {
+  background-image: url('images/amandla.jpeg');
+  background-size: cover;
+}
+
+.slide-nav-item-3 {
+  background-image: url('images/phantom-menace.jpeg');
+  background-size: cover;
+}
+
+.slide-nav-item-4 {
+  background-image: url('images/star-wars-quiz.jpeg');
+  background-size: cover;
+}
+
+.slide-nav-item-5 {
+  background-image: url('images/acolyte.jpeg');
+  background-size: cover;
+}
+
+.slide-nav-item-6 {
+  background-image: url('images/lego-starwars.jpeg');
+  background-size: cover;
+}
+
+.section-header {
+  display: block;
+  width: 100%;
+}
+
+.section-title {
+  flex: 1;
+}
+
+.section-header-bar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 30px;
+  border-bottom: 2px solid #48494a;
+  padding-bottom: 4px;
+}
+
+.section-header-bar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  width: 100%;
+}
+
+.section-header-bar h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.section-header-bar p {
+  height: 100%;
+  margin: 0;
+  display: flex;
+}
+
+.section-title {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.section-more {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.content-list ul {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  margin: 25px 0 0 0;
+  padding: 0;
+  gap: 45px;
+}
+
+.content-item {
+  width: 33.33%;
+  box-sizing: border-box;
+  padding: 0px;
+  background: #1d1e1f;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.content-item img {
+  width: 100%;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.content-item h3 {
+  padding: 0 15px;
+  font-size: 1.125rem;
+  line-height: 26px;
+  margin-top: 25px;
+}
