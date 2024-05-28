@@ -82,12 +82,21 @@ body {
   color: white;
 }
 
+.social-links li:hover {
+  cursor: pointer;
+  color: #d5d5d5;
+}
+
 .social-kids {
   display: flex;
   justify-content: center;
   padding-left: 15px;
   border-left: 1px solid rgba(255, 255, 255, 0.363);
   align-items: center;
+}
+
+.social-kids:hover {
+  cursor: pointer;
 }
 
 .account-list {
@@ -106,6 +115,11 @@ body {
 
 .account-link i {
   margin-right: 5px;
+}
+
+li.account-link:hover {
+  cursor: pointer;
+  color: #d5d5d5;
 }
 
 .navbar-links {
@@ -409,6 +423,11 @@ footer {
   font-size: 13px;
   text-decoration: underline;
   padding-bottom: 45px;
+}
+
+.footer-links li:hover {
+  cursor: pointer;
+  color: #d5d5d5;
 }
 
 @media screen and (max-width: 1835px) {
