@@ -410,3 +410,9 @@ footer {
   text-decoration: underline;
   padding-bottom: 45px;
 }
+
+@media screen and (max-width: 1835px) {
+  body {
+    background: #000;
+  }
+}
