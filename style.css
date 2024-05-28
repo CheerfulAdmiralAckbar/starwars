@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   background-color: #000;
   font-family: "Roboto", sans-serif;
+  background: url('/images/starwars-background.jpeg')
 }
 
 .wrapper {
@@ -28,6 +29,7 @@ body {
   display: block;
   padding-bottom: 10px;
   border-bottom: 1px #48494a solid;
+  background: #000;
 }
 
 
@@ -370,4 +372,41 @@ body {
   font-size: 1.125rem;
   line-height: 26px;
   margin-top: 25px;
+}
+
+footer {
+  background: #000;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+  padding-top: 30px;
+}
+
+.footer-social h4 {
+  color: white;
+  font-size: 15px;
+  margin: auto;
+}
+
+.social-footer-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.footer-links ul {
+  display: flex;
+  color: white;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0 20px;
+  font-size: 13px;
+  text-decoration: underline;
+  padding-bottom: 45px;
 }
