@@ -4,7 +4,9 @@ body {
   box-sizing: border-box;
   background-color: #000;
   font-family: "Roboto", sans-serif;
-  background: url('images/starwars-background.jpeg')
+  background: url('images/starwars-background.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .wrapper {
